@@ -1,0 +1,209 @@
+*
+/* Import Font Awesome Style */
+
+@import url("fonts/exo/stylesheet.css");
+
+/* Natural Tags */
+  /* Web Page Basic Elements */
+html {font-family: exoregular, sans-serif !important;}
+body {top: 75px; font-family: exoregular, sans-serif !important;}
+footer {background-color: #404040; padding-top: 20px;}
+  /* Text styles */
+p {font-family: exoregular, sans-serif !important; font-size: 16px;}
+h1 {font-family: exobold, sans-serif !important; font-size: 24px;}
+h2 {font-family: exobold, sans-serif !important; font-size: 20px;}
+h3 {font-family: exobold, sans-serif !important; font-size: 18px;}
+em {font-family: exothinitalic, sans-serif !important; font-size: 16px;}
+  /* Basics Classes Elements */
+.container {max-width: 80%;font-family: exoregular, sans-serif !important;}
+.navbar {background-color: transparent; background: transparent; border-color: transparent; bottom: 10px; font-family: exoregular, sans-serif !important;}
+.navbar li { color: #000; top: 25px;} 
+.navbar-default {box-shadow: none;}
+.navbar-default li {font-size: 14px;}
+.logo-princ {width: 50px;}
+@media screen and (min-width: 720px){ .container {min-width: 100%;} .navbar-fixed-top {background: white;} .navbar-ex1-collapse {font-size: 12px; background: #FFF; max-height: 75px;} .logo-princ{width: 100px; top: -5px;} #story-logo img{width: 200px; } #story-main {margin-left: 1em; font-size: 12px; align-content: center;float: right;}} */
+.navbar-fixed-top {max-width: 100%;  background: white;}
+.navbar-fixed-top {max-height: 75px;}
+.collapse {background-color: white; text-align: right;}
+#espacio {height: 4px;}
+
+/* Our Story Section */
+#story-main {float: right;}
+#story-logo {margin-top: 3em; margin-left: 15em; float: left;}
+#story-container {padding-top: 60px; margin-bottom: 60px;}
+
+/* Expertise Section */
+#expertise-div {padding-top: 60px; margin-bottom: 60px;}
+#expertise-caps {max-width: 350px; text-align: center;}
+#expertise-caps hr {max-width: 300px;}
+#expertise-container {max-width: 100%; margin-left: 10%;}
+#expertise-1-description {margin-top: 10px; text-align: justify;}
+#expertise-1-description a:active {text-decoration: none; color: black;}
+#expertise-1-description a:link {text-decoration: none; color: black;}
+#expertise-1-description a:visited {text-decoration: none; color: black;}
+#expertise-1-description a:hover {text-decoration: none; color: #404040;}
+
+/* Our Team Section */
+#columnas {margin-right: 40px; border: solid 1px #404040; }
+#team {padding-top: 60px; padding-bottom: 60px; background-image: url('img/business-background.jpg'); color: white;}
+#team hr {max-width: 300px;}
+.card-img-top {max-width: 150px; min-width: 150px; border-radius: 12px 12px 0px 0px;}
+.card-text {background: #404040; color: white; min-width: 150px; text-align: center; border-radius: 0px 0px 12px 12px;}
+#team-cards {margin-left: 17%;}
+
+/* Our Work Section */
+#our-work {padding-left: 10%; margin-top: 30px; margin-bottom: 30px;}
+#our-work a:active {color: black;}
+#our-work a:link {color: black;}
+#our-work a:visited {color: black;}
+#our-work a:hover {color: #404040;}
+#works {float: left; margin-top: 5px; margin-left: 10%;}
+#github {float: right; margin-top: 25px; text-align: right; margin-right: 10%;}
+#portfolio-caps {padding-bottom: 50px; color: white;}
+
+/* People say Section */
+#people-say {padding-top: 60px; margin-bottom: 60px;}
+
+/* Contact form */
+#contact_us {padding-top: 60px; padding-bottom: 60px; background-image: url('img/business-background.jpg');}
+#contact_desc {background-color: white; padding: 15px; margin-left: 0px; opacity: 0.6; border: 1px solid white;}
+#contact_inputs {margin-right: 0px;}
+#contact_title {color: white;}
+#contact_hr {max-width: 25%; padding-bottom: 40px;}
+.jumbotron {background: #358CCE; color: #FFF; border-radius: 0px;}
+.jumbotron-sm { padding-top: 24px; padding-bottom: 24px; }
+.jumbotron small {color: #FFF;}
+.h1 small {font-size: 24px;}
+
+/* Footer text */
+#copy_text {text-align: right; padding-right: 5em; color: white;}
+
+/* Send message success and warning style */
+#btn-msgok {float: right; margin-right: 10%;}
+#msg_success {float:left; margin-left: 15%; margin-right: 15%; margin-top: 10%; font-size: 35px;}
+#msg_warning {float:left; margin-left: 15%; margin-right: 15%; margin-top: 10%; font-size: 35px;}
+
+/* Go top Button Style */
+.crunchify-top:hover {color: #fff !important; background-color: #ed702b; text-decoration: none;}
+.crunchify-top {display: none; position: fixed; bottom: 1rem; right: 1rem; width: 6rem; height: 6rem; line-height: 6rem; font-size: 4rem; color: #fff; background-color: rgba(0,0,0,0.3); text-decoration: none; border-radius: 4rem; text-align: center; cursor: pointer;}
+
+/* jssor slider bullet navigator skin 05 css */
+        /*
+        .jssorb05 div           (normal)
+        .jssorb05 div:hover     (normal mouseover)
+        .jssorb05 .av           (active)
+        .jssorb05 .av:hover     (active mouseover)
+        .jssorb05 .dn           (mousedown)
+        */
+.jssorb05 {position: absolute;}
+.jssorb05 div, .jssorb05 div:hover, .jssorb05 .av {position: absolute; /* size of bullet elment */ width: 16px; height: 16px; background: url('img/b05.png') no-repeat; overflow: hidden; cursor: pointer;}
+.jssorb05 div { background-position: -7px -7px; }
+.jssorb05 div:hover, .jssorb05 .av:hover { background-position: -37px -7px; }
+.jssorb05 .av { background-position: -67px -7px; }
+.jssorb05 .dn, .jssorb05 .dn:hover { background-position: -97px -7px; }
+
+        /* jssor slider arrow navigator skin 22 css */
+        /*
+        .jssora22l                  (normal)
+        .jssora22r                  (normal)
+        .jssora22l:hover            (normal mouseover)
+        .jssora22r:hover            (normal mouseover)
+        .jssora22l.jssora22ldn      (mousedown)
+        .jssora22r.jssora22rdn      (mousedown)
+        */
+.jssora22l, .jssora22r {display: block; position: absolute; /* size of arrow element */ width: 40px; height: 58px; cursor: pointer; background: url('img/a22.png') center center no-repeat; overflow: hidden;}
+.jssora22l { background-position: -10px -31px; }
+.jssora22r { background-position: -70px -31px; }
+.jssora22l:hover { background-position: -130px -31px; }
+.jssora22r:hover { background-position: -190px -31px; }
+.jssora22l.jssora22ldn { background-position: -250px -31px; }
+.jssora22r.jssora22rdn { background-position: -310px -31px; }
+
+
+/* Video Container */
+.homepage-hero-module {border-right: none; border-left: none; position: relative;}
+.no-video .video-container video, .touch .video-container video {display: none;}
+.no-video .video-container .poster, .touch .video-container .poster {display: block !important;}
+.video-container {position: relative; bottom: 0%; left: 0%; height: 70%; width: 100%; overflow: hidden; background: #000; text-decoration: none;}
+.video-container a:link {text-decoration: none; color: white;}
+.video-container a:visited {text-decoration: none; color: white;}
+.video-container a:hover {text-decoration: none; color: #404040;}
+.video-container a:active {text-decoration: none; color: white;}
+.video-container .poster img {width: 100%; bottom: 0; position: absolute;}
+.video-container .filter {z-index: 100; position: absolute; background: rgba(0, 0, 0, 0.4); width: 100%;}
+.video-container .title-container {z-index: 1000; position: absolute; top: 30%; width: 100%; text-align: center; color: #fff;}
+.video-container .description .inner {font-size: 1em; width: 45%; margin: 0 auto;}
+.video-container .link {position: absolute; bottom: 3em; width: 100%; text-align: center; z-index: 1001; font-size: 2em; color: #fff;}
+.video-container .link a {color: #fff;}
+.video-container video {position: absolute; z-index: 0; bottom: 0;}
+.video-container video.fillWidth {width: 100%;}
+
+/* carousel */
+#quote-carousel {padding: 0 10px 30px 10px; margin-top: 30px;}
+  /* Control buttons  */
+#quote-carousel .carousel-control{background: none; color: #222; font-size: 2.3em; text-shadow: none; margin-top: 30px;}
+  /* Previous button  */
+#quote-carousel .carousel-control.left {left: -12px;}
+  /* Next button  */
+#quote-carousel .carousel-control.right {right: -12px !important;}
+  /* Changes the position of the indicators */
+#quote-carousel .carousel-indicators {right: 50%;top: auto;bottom: 0px;margin-right: -19px;}
+  /* Changes the color of the indicators */
+#quote-carousel .carousel-indicators li {background: #c0c0c0;}
+#quote-carousel .carousel-indicators .active {background: #333333;}
+#quote-carousel img {width: 250px;height: 100px}
+  /* End carousel */
+.item blockquote {border-left: none;  margin: 0;}
+.item blockquote img {margin-bottom: 10px;}
+.item blockquote p:before {content: "\f10d";font-family: 'Fontawesome';float: left;margin-right: 10px;}
+  /** MEDIA QUERIES */
+  /* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) { #quote-carousel {margin-bottom: 0;padding: 0 40px 30px 40px;}}
+  /* Small devices (tablets, up to 768px) */
+@media (max-width: 768px) { 
+    /* Make the indicators larger for easier clicking with fingers/thumb on mobile */
+    #quote-carousel .carousel-indicators {bottom: -20px !important;}
+    #quote-carousel .carousel-indicators li {display: inline-block;margin: 0px 5px;width: 15px;height: 15px;}
+    #quote-carousel .carousel-indicators li.active {margin: 0px 5px;width: 20px;height: 20px;}
+}
+
+
+/* Font defined for the text */
+@font-face {
+    font-family: 'exoregular';
+    src: url('fonts/exo/exo-regular-webfont.eot');
+    src: url('fonts/exo/exo-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/exo/exo-regular-webfont.woff2') format('woff2'),
+         url('fonts/exo/exo-regular-webfont.woff') format('woff'),
+         url('fonts/exo/exo-regular-webfont.ttf') format('truetype'),
+         url('fonts/exo/exo-regular-webfont.svg#exoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'exobold';
+    src: url('fonts/exo/exo-bold-webfont.eot');
+    src: url('fonts/exo/exo-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/exo/exo-bold-webfont.woff2') format('woff2'),
+         url('fonts/exo/exo-bold-webfont.woff') format('woff'),
+         url('fonts/exo/exo-bold-webfont.ttf') format('truetype'),
+         url('fonts/exo/exo-bold-webfont.svg#exobold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'exothinitalic';
+    src: url('fonts/exo/exo-thinitalic-webfont.eot');
+    src: url('fonts/exo/exo-thinitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/exo/exo-thinitalic-webfont.woff2') format('woff2'),
+         url('fonts/exo/exo-thinitalic-webfont.woff') format('woff'),
+         url('fonts/exo/exo-thinitalic-webfont.ttf') format('truetype'),
+         url('fonts/exo/exo-thinitalic-webfont.svg#exothinitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}

@@ -1,0 +1,32 @@
+body {
+  padding-top: 70px;
+  padding-bottom: 30px;
+  font-size: 18px;
+}
+
+h1 {font-size: 24px;}
+h2 {font-size: 22px;}
+h3 {font-size: 20px;}
+
+p {font-size: 18px;}
+
+.theme-dropdown .dropdown-menu {
+  position: static;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.theme-showcase > p > .btn {
+  margin: 5px 0;
+}
+
+.theme-showcase .navbar .container {
+  width: auto;
+}
+
+#cclicense {float: left; margin-left: 10%; padding-right: 10px;}
+#cctext {padding-left: 10px; margin-right: 10%; margin-bottom: 10px;}
+#ccincontainer {float: center;}
+#imagetree img {float: right; margin-right: 20%;}
+#texttree { margin-left: 20%;}
+.page-header h1{text-align: left;}
