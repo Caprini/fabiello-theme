@@ -1,6 +1,9 @@
 # fabiello-theme
-Fabiello theme es un tema en HTML 5 que puedes modificar y utilizar para tus propios fines.
+Fabiello theme is a theme in HTML 5 that you can modify and use for your own purposes.
 
-Fabiello theme aunque utiliza HTML 5 y Bootstrap 3 Twitter está programado en PHP. Asi que necesitaras un servidor con PHP para poder utilizar el theme.
+Fabiello theme but uses HTML 5 Bootstrap 3 Twitter is programmed in PHP. So you need a server with PHP to use the theme.
 
+You can find documentation topic: http://lfcassaro.com/fabiello-theme/documentation
+
+You can also use the official forum: http://forovagos.es
 
